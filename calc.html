@@ -31,8 +31,8 @@
                 // @TODO: complete this code so it returns the correct result
                 document.forms.inputs.result.value = parseInt(document.forms.inputs.number1.value) / parseInt(document.forms.inputs.number2.value);
             },
-            sqrt: function () {
-                document.forms.inputs.result.value = parseInt(document.forms.inputs.number1.value) * parseInt(document.forms.inputs.number1.value);
+            sqr: function () {
+                document.forms.inputs.result.value = parseInt(document.forms.inputs.number1.value) * parseInt(document.forms.inputs.number1.value)
             },
         }
     </script>
@@ -70,7 +70,7 @@
                         <button type="button" class="btn btn-secondary"
                             onclick="calculator.multiply()">multiply</button>
                         <button type="button" class="btn btn-secondary" onclick="calculator.divide()">/</button>
-                        <button type="button" class="btn btn-secondary" onclick="calculator.sqrt()">sqrt</button>
+                        <button type="button" class="btn btn-secondary" onclick="calculator.sqr()">sqr</button>
                     </div>
                     <div class="form-group result">
                         <label>Result</label>
