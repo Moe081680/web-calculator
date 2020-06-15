@@ -34,6 +34,10 @@
             sqr: function () {
                 document.forms.inputs.result.value = parseInt(document.forms.inputs.number1.value) * parseInt(document.forms.inputs.number1.value)
             },
+
+            pi: function () {
+                document.forms.inputs.number1.value = 3.141516
+            },
         }
     </script>
     <style>
@@ -71,6 +75,7 @@
                             onclick="calculator.multiply()">multiply</button>
                         <button type="button" class="btn btn-secondary" onclick="calculator.divide()">/</button>
                         <button type="button" class="btn btn-secondary" onclick="calculator.sqr()">sqr</button>
+                        <button type="button" class="btn btn-secondary" onclick="calculator.pi()">pi</button>
                     </div>
                     <div class="form-group result">
                         <label>Result</label>
